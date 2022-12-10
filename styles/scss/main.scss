@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(52, 162, 133);
+  font-family: sans-serif;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 70vh;
+}
+.clock {
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 400px;
+  position: relative;
+  img {
+    position: relative;
+  }
+}
+.absol1 {
+  top: 15px;
+  right: 220px;
+  left: 220px;
+}
+.absol2 {
+  top: 150px;
+  right: 220px;
+  left: 0px;
+}
+.absol1,
+.absol2,
+.absol3,
+.absol4,
+.absol5,
+.absol6,
+.absol7,
+.absol8,
+.absol9,
+.absol10,
+.absol11,
+.absol12 {
+  position: absolute;
+  font-size: 30px;
+}
+.seconds {
+  font-size: 200px;
+  position: absolute;
+  top: 30px;
+  left: 220px;
+  font-weight: 100;
+  color: red;
+  transform-origin: bottom;
+  // transform: rotate(180deg);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.minute {
+  font-size: 180px;
+  position: absolute;
+  top: 50px;
+  left: 230px;
+  font-weight: 100;
+  transform-origin: bottom;
+  // transform: rotate(180deg);
+}
+.hour {
+  font-size: 160px;
+  position: absolute;
+  top: 70px;
+  left: 240px;
+  font-weight: 100;
+  transform-origin: bottom;
+  // transform: rotate(10deg);
+}
